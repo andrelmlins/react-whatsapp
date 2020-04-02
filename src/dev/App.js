@@ -1,29 +1,32 @@
-import React from "react";
+import React, { useState } from "react";
 import ReactWhatsapp from "../lib";
-import logo from "./logo.png";
 
-const App = () => (
-  <div className="content">
-    <img src={logo} className="logo" alt="Logo Create React Dependency" />
-    <h1 className="title">Create React Dependency</h1>
-    <section className="library">
-      <ReactWhatsapp
-        number="+055 (81) 98852-7655"
-        message="Meu envio"
-        style={{
-          border: "none",
-          boxShadow: "none",
-          backgroundColor: "#00838f",
-          color: "#FFF",
-          padding: "0px 20px",
-          fontSize: 20,
-          height: 40
-        }}
-      >
-        Abrir Whatsapp
-      </ReactWhatsapp>
-    </section>
-  </div>
-);
+const App = () => {
+  const [number, setNumber] = useState("");
+  const [message, setMessage] = useState("");
+
+  return (
+    <div className="content">
+      <h1 className="title">React Whatsapp</h1>
+      <section className="library">
+        <input
+          id="number"
+          placeholder="Number"
+          value={number}
+          onChange={e => setNumber(e.target.value)}
+        />
+        <input
+          id="message"
+          placeholder="Message"
+          value={message}
+          onChange={e => setMessage(e.target.value)}
+        />
+        <ReactWhatsapp number={number} message={message}>
+          Open Whatsapp
+        </ReactWhatsapp>
+      </section>
+    </div>
+  );
+};
 
 export default App;

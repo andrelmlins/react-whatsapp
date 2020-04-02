@@ -2,7 +2,7 @@ body,
 #root {
   margin: 0;
   padding: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 html,
@@ -13,7 +13,7 @@ body,
 }
 
 .content {
-  background-color: #37474f;
+  background-color: #1ebea5;
   width: 100%;
   height: 100%;
   display: flex;
@@ -23,26 +23,32 @@ body,
 }
 
 .title {
-  color: #ffd600;
-  margin-bottom: 80px;
+  color: white;
+  margin-bottom: 10px;
   margin-top: 0px;
-}
-
-.logo {
-  width: auto;
-  height: 300px;
+  font-size: 40pt;
 }
 
 .library {
   width: 600px;
   max-width: 100%;
   height: 300px;
-  background-color: white;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  overflow: scroll;
-  border-radius: 5px;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
-    0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+  padding: 16px;
+}
+
+input,
+button {
+  width: 100%;
+  font-family: inherit;
+  font-size: 16pt;
+  padding: 0.4em;
+  margin: 0 0 20px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }
