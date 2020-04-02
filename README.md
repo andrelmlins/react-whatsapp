@@ -1,31 +1,45 @@
-# My Library - Created from [Create React Dependency](https://github.com/andrelmlins/create-react-dependency)
+# React Whatsapp
 
-## start the project
+[![npm version](https://badge.fury.io/js/react-whatsapp.svg)](https://www.npmjs.com/package/react-whatsapp) &bull; [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/andrelmlins/react-whatsapp/blob/master/LICENSE) &bull; [![Build Status](https://travis-ci.com/andrelmlins/react-whatsapp.svg?branch=master)](https://travis-ci.com/andrelmlins/react-whatsapp)
 
-Using [webpack](https://webpack.js.org/) with reference to folder `src/dev`.
+React component for whatsapp click to chat
+
+## Installation
 
 ```
-npm start
+npm i react-whatsapp
 // OR
-yarn start
+yarn add react-whatsapp
 ```
 
-## build the project
+## Demo [Link](https://react-whatsapp.netlify.com/)
 
-Using [babel](https://babeljs.io/) with reference to folder `src/lib`.
-
-```
-npm build
-// OR
-yarn build
-```
-
-## test the project
-
-Using [jest](https://jestjs.io/) with reference to folder `src/lib`. Is possible edit the test config in `package.json`.
+Local demo:
 
 ```
-npm test
-// OR
-yarn test
+git clone https://github.com/andrelmlins/react-whatsapp.git
+cd react-whatsapp
+yarn install && yarn start
 ```
+
+## Examples
+
+```jsx
+import React from "react";
+import { render } from "react-dom";
+import ReactWhatsapp from "react-whatsapp";
+
+const App = () => <ReactWhatsapp />;
+
+render(<App />, document.getElementById("root"));
+```
+
+## NPM Statistics
+
+Download stats for this NPM package
+
+[![NPM](https://nodei.co/npm/react-whatsapp.png)](https://nodei.co/npm/react-whatsapp/)
+
+## License
+
+React Whatsapp is open source software [licensed as MIT](https://github.com/andrelmlins/react-whatsapp/blob/master/LICENSE).
