@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "main": "dist/index.js",
   "module": "dist/index.js",
+  "homepage": "https://react-whatsapp.netlify.com/",
+  "author": "André Lins <andrelucas01@hotmail.com> (https://andrelmlins.github.io/)",
   "license": "MIT",
   "files": [
     "dist"
@@ -17,6 +19,18 @@
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-dependency-scripts": "^1.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrelmlins/react-whatsapp.git"
+  },
+  "keywords": [
+    "react",
+    "whatsapp",
+    "click-to-chat"
+  ],
+  "bugs": {
+    "url": "https://github.com/andrelmlins/react-whatsapp/issues"
   },
   "browserslist": {
     "production": [

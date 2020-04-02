@@ -1,9 +1,9 @@
-import React, { useState } from "react";
-import ReactWhatsapp from "../lib";
+import React, { useState } from 'react';
+import ReactWhatsapp from '../lib';
 
 const App = () => {
-  const [number, setNumber] = useState("");
-  const [message, setMessage] = useState("");
+  const [number, setNumber] = useState('');
+  const [message, setMessage] = useState('');
 
   return (
     <div className="content">

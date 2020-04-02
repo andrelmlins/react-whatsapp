@@ -29,10 +29,20 @@ import React from "react";
 import { render } from "react-dom";
 import ReactWhatsapp from "react-whatsapp";
 
-const App = () => <ReactWhatsapp />;
+const App = () => (
+  <ReactWhatsapp number="1-212-736-5000" message="Hello World!!!" />
+);
 
 render(<App />, document.getElementById("root"));
 ```
+
+## Properties
+
+| Prop    | Default  | Type    | Description      |
+| ------- | -------- | ------- | ---------------- |
+| number  | --       | string  | Phone number     |
+| message | --       | string  | Message for chat |
+| element | "button" | element | Node element     |
 
 ## NPM Statistics
 

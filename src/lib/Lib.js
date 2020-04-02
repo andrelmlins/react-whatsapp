@@ -1,12 +1,12 @@
-import React from "react";
-import PropTypes from "prop-types";
+import React from 'react';
+import PropTypes from 'prop-types';
 
-const URL = " https://wa.me";
+const URL = ' https://wa.me';
 
 const ReactWhatsapp = ({ number, message, element, onClick, ...props }) => {
   const Element = element;
 
-  number = number.replace(/[^\w\s]/gi, "").replace(/ /g, "");
+  number = number.replace(/[^\w\s]/gi, '').replace(/ /g, '');
 
   let url = `${URL}/${number}`;
 
@@ -35,7 +35,7 @@ ReactWhatsapp.propTypes = {
 };
 
 ReactWhatsapp.defaultProps = {
-  element: "button"
+  element: 'button'
 };
 
 export default ReactWhatsapp;
