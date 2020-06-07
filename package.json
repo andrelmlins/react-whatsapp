@@ -19,7 +19,7 @@
   "devDependencies": {
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
-    "react-dependency-scripts": "^1.0.3"
+    "react-dependency-scripts": "^1.0.5"
   },
   "repository": {
     "type": "git",
