@@ -15,7 +15,8 @@
     "start": "react-dependency-scripts start",
     "build": "react-dependency-scripts build",
     "build:app": "react-dependency-scripts build-app",
-    "test": "react-dependency-scripts test"
+    "test": "react-dependency-scripts test",
+    "coverage": "react-dependency-scripts test --coverage"
   },
   "devDependencies": {
     "@testing-library/react": "^11.0.2",
