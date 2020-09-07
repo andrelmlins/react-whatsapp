@@ -18,9 +18,10 @@
     "test": "react-dependency-scripts test"
   },
   "devDependencies": {
+    "@testing-library/react": "^11.0.2",
     "react": "^16.13.0",
-    "react-dom": "^16.13.0",
-    "react-dependency-scripts": "^1.0.5"
+    "react-dependency-scripts": "^1.0.6",
+    "react-dom": "^16.13.0"
   },
   "repository": {
     "type": "git",

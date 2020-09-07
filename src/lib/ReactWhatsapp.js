@@ -31,8 +31,7 @@ const ReactWhatsapp = ({ number, message, element, onClick, ...props }) => {
 ReactWhatsapp.propTypes = {
   number: PropTypes.string.isRequired,
   message: PropTypes.string,
-  element: PropTypes.element,
-  onClick: PropTypes.function
+  element: PropTypes.oneOfType([PropTypes.string, PropTypes.element])
 };
 
 ReactWhatsapp.defaultProps = {
