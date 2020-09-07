@@ -8,8 +8,6 @@ install: yarn
 
 jobs:
   include:
-    - stage: lint
-      script: yarn lint
     - stage: test
       script: yarn coverage
     - stage: npm release
