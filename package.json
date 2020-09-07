@@ -1,7 +1,7 @@
 {
   "name": "react-whatsapp",
   "description": "React component for whatsapp click to chat",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
