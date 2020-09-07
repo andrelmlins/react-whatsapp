@@ -4,6 +4,7 @@
   "version": "0.1.1",
   "main": "dist/index.js",
   "module": "dist/index.js",
+  "types": "dist/index.d.ts",
   "homepage": "https://react-whatsapp.netlify.com/",
   "author": "André Lins <andrelucas01@hotmail.com> (https://andrelmlins.github.io/)",
   "license": "MIT",
