@@ -19,10 +19,10 @@
     "coverage": "react-dependency-scripts test --coverage"
   },
   "devDependencies": {
-    "@testing-library/react": "^11.0.2",
-    "react": "^16.13.0",
+    "@testing-library/react": "^11.2.5",
+    "react": "^17.0.1",
     "react-dependency-scripts": "^1.0.6",
-    "react-dom": "^16.13.0"
+    "react-dom": "^17.0.1"
   },
   "repository": {
     "type": "git",
