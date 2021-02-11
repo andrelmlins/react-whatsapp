@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const URL = ' https://wa.me';
+const URL = 'https://wa.me';
 
 const ReactWhatsapp = ({ number, message, element, onClick, ...props }) => {
   const Element = element;
@@ -16,7 +16,7 @@ const ReactWhatsapp = ({ number, message, element, onClick, ...props }) => {
 
   return (
     <Element
-      onClick={e => {
+      onClick={(e) => {
         window.open(url);
 
         if (onClick) {
@@ -31,11 +31,11 @@ const ReactWhatsapp = ({ number, message, element, onClick, ...props }) => {
 ReactWhatsapp.propTypes = {
   number: PropTypes.string.isRequired,
   message: PropTypes.string,
-  element: PropTypes.oneOfType([PropTypes.string, PropTypes.element])
+  element: PropTypes.oneOfType([PropTypes.string, PropTypes.element]),
 };
 
 ReactWhatsapp.defaultProps = {
-  element: 'button'
+  element: 'button',
 };
 
 export default ReactWhatsapp;
