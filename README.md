@@ -1,6 +1,6 @@
 # React Whatsapp
 
-[![npm version](https://badge.fury.io/js/react-whatsapp.svg)](https://www.npmjs.com/package/react-whatsapp) &bull; [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/andrelmlins/react-whatsapp/blob/master/LICENSE) &bull; [![Build Status](https://travis-ci.com/andrelmlins/react-whatsapp.svg?branch=master)](https://travis-ci.com/andrelmlins/react-whatsapp) &bull; [![Netlify Status](https://api.netlify.com/api/v1/badges/aedabb99-7094-4894-8063-7dad39afc83d/deploy-status)](https://app.netlify.com/sites/react-whatsapp/deploys)
+[![npm version](https://badge.fury.io/js/react-whatsapp.svg)](https://www.npmjs.com/package/react-whatsapp) &bull; [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/andrelmlins/react-whatsapp/blob/master/LICENSE) &bull; [[![Node.js CI](https://github.com/andrelmlins/react-whatsapp/actions/workflows/nodejs.yml/badge.svg)](https://github.com/andrelmlins/react-whatsapp/actions/workflows/nodejs.yml) &bull; [![Netlify Status](https://api.netlify.com/api/v1/badges/aedabb99-7094-4894-8063-7dad39afc83d/deploy-status)](https://app.netlify.com/sites/react-whatsapp/deploys)
 
 React component for whatsapp click to chat
 
