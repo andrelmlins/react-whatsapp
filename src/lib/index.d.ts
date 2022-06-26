@@ -1,11 +1,16 @@
 import * as React from 'react';
 
-export interface ReactWhatsappProps {
-  number: string;
-  message?: string;
-  element?: string | React.ReactElement<any>;
-}
+type Values<T> = T[keyof T];
 
-export default class ReactWhatsapp extends React.Component<
-  ReactWhatsappProps
-> {}
+type ObtainHTMLProps<T extends Values<JSX.IntrinsicElements>> =
+  T extends React.DetailedHTMLProps<infer Props, HTMLElement> ? Props : never;
+
+type ReactWhatsappProps = Values<{
+  [Tag in keyof JSX.IntrinsicElements]: {
+    element: Tag;
+    number: string;
+    message?: string;
+  } & ObtainHTMLProps<JSX.IntrinsicElements[Tag]>;
+}>;
+
+export default class ReactWhatsapp extends React.Component<ReactWhatsappProps> {}

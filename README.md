@@ -38,11 +38,11 @@ render(<App />, document.getElementById('root'));
 
 ## Properties
 
-| Prop    | Default | Type    | Description      |
-| ------- | ------- | ------- | ---------------- |
-| number  | --      | string  | Phone number     |
-| message | --      | string  | Message for chat |
-| element | button  | element | Node element     |
+| Prop    | Default | Type    | Description                                           |
+| ------- | ------- | ------- | ----------------------------------------------------- |
+| number  | --      | string  | Phone number                                          |
+| message | --      | string  | Message for chat                                      |
+| element | button  | element | Either a string to use a HTML element or a component. |
 
 ## NPM Statistics
 
